@@ -20,9 +20,7 @@
 - python版本为3.10
 - cuda版本是12.1
 - torch安装2.1
-- 安装vllm gptq量化版, 安装时命令采用pip install . -i https://mirrors.aliyun.com/pypi/simple/
-- 安装modelscope，命令pip install modelscope -i https://mirrors.aliyun.com/pypi/simple/
-- 安装千问的tiktoken分词库 pip install tiktoken -i https://mirrors.aliyun.com/pypi/simple/
+- pip install requirements.txt
 
 ## 离线推理
 
@@ -49,6 +47,8 @@ python vllm_server.py
 ```
 python vllm_client.py
 ```
+
+Qwen-7B-Chat-Int4大概占用13G显存
 
 ## webui
 

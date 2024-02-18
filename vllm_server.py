@@ -13,7 +13,7 @@ import json
 app=FastAPI()
 
 # vLLM参数
-model_dir="qwen/Qwen-14B-Chat-Int4"
+model_dir="qwen/Qwen-7B-Chat-Int4"
 tensor_parallel_size=1
 gpu_memory_utilization=0.6
 quantization='gptq'
